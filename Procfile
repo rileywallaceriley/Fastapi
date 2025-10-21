@@ -1,1 +1,1 @@
-web: uvicorn main:app --host 0.0.0.0 --port $PORT
+web: ./install_ffmpeg.sh uvicorn main:app --host 0.0.0.0 --port $PORT
